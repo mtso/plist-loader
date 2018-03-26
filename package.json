@@ -1,0 +1,27 @@
+{
+  "name": "plist-loader",
+  "version": "1.0.1",
+  "author": "mtso <~@mtso.io>",
+  "description": "Webpack loader for .plist files.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtso/plist-loader"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava test/*.test.js"
+  },
+  "dependencies": {
+    "plist": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "dotenv": "^5.0.1",
+    "envvar-loader": "^1.0.0",
+    "webpack": "^4.2.0"
+  }
+}
