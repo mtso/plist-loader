@@ -1,6 +1,6 @@
 {
   "name": "plist-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "mtso <~@mtso.io>",
   "description": "Webpack loader for .plist files.",
   "license": "MIT",
